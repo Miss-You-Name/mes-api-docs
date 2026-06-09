@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/ss/checkont3mp9"
 
 # ONT产品维修与降级3MP9工位查询
 
-> **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/概览|ONT-MES相关接口]]
+> **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/ONT-MES相关接口-概览|ONT-MES相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckONT3MP9`
 > **正式**: `http://10.200.6.27:10002/fundation``/online-mes/ml/ss/checkont3mp9`

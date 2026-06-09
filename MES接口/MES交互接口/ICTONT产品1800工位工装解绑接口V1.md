@@ -8,7 +8,7 @@ prod_url: "http://10\.200\.6\.27:10002`/fundation``/api/online-mes/v2/transfer/m
 
 # ICT:ONT产品1800工位工装解绑接口V1
 
-> **模块**: [[00-总览|MES接口]] > [[MES交互接口/概览|MES交互接口]]
+> **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.200:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
 > **正式**: `http://10\.200\.6\.27:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
