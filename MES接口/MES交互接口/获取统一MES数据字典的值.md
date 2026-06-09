@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossar
 
 # 获取统一MES数据字典的值
 
-> **模块**: [[00-总览|MES接口]] > MES交互接口
+> **模块**: [[00-总览|MES接口]] > [[MES交互接口/概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/CommonService\.asmx?op=ML\_COM\_GetSysGlossary`
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossary`

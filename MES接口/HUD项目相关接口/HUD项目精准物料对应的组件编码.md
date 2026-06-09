@@ -7,7 +7,7 @@ prod_url: "http://10.200.6.27:10002/fundation/``online-mes/ml/ss/hud/getpcodewit
 
 # HUD项目精准物料对应的组件编码
 
-> **模块**: [[00-总览|MES接口]] > HUD项目相关接口
+> **模块**: [[00-总览|MES接口]] > [[HUD项目相关接口/概览|HUD项目相关接口]]
 > **方式**: POST
 > **正式**: `http://10.200.6.27:10002/fundation/``online-mes/ml/ss/hud/getpcodewithserialnumber`
 

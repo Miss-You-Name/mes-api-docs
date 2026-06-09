@@ -7,7 +7,7 @@ prod_url: "http://10.200.6.27:10002``/ontmes/api/inprocess/plan/info/get/v1.0.0"
 
 # 获取ONT产品所有在制计划信息
 
-> **模块**: [[00-总览|MES接口]] > ONT-MES相关接口
+> **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/概览|ONT-MES相关接口]]
 > **方式**: POST
 > **正式**: `http://10.200.6.27:10002``/ontmes/api/inprocess/plan/info/get/v1.0.0`
 

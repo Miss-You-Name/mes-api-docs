@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ict/mat/bandmat"
 
 # ICT产品物料与产品条码绑定（精准）
 
-> **模块**: [[00-总览|MES接口]] > MES交互接口
+> **模块**: [[00-总览|MES接口]] > [[MES交互接口/概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/MatService\.asmx?op=ICT\_MAT\_BandMat`
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ict/mat/bandmat`

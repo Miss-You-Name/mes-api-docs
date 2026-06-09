@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstat
 
 # CCD查询传入的站位的CCD是否都有拍照数据
 
-> **模块**: [[00-总览|MES接口]] > MES交互接口
+> **模块**: [[00-总览|MES接口]] > [[MES交互接口/概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckALLCCDStation`
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstation`

@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/uploadccd`~~"
 
 # CCD上传FTP存储路径(已弃用，请使用文档《[FTP 图片上传规范](https://jiuzhou1958.feishu.cn/docx/NLwLdYaG6o6kzOxWzTFc1VbonAg)》)
 
-> **模块**: [[00-总览|MES接口]] > MES交互接口
+> **模块**: [[00-总览|MES接口]] > [[MES交互接口/概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_UploadCCD~~`
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/ss/uploadccd`~~`

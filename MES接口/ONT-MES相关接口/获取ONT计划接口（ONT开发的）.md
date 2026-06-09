@@ -8,7 +8,7 @@ prod_url: "http://10\.21\.59\.4:5690/PMC/api/PMC/GetTaskOrder?type=ASM2310\-9000
 
 # 获取ONT计划接口（ONT开发的）
 
-> **模块**: [[00-总览|MES接口]] > ONT-MES相关接口
+> **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/概览|ONT-MES相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.21\.59\.4:5690/PMC/api/PMC/GetTaskOrder?type=](http://10.21.59.4:5690/PMC/api/PMC/GetTaskOrder?type=ASM2310-900003)[\{Name\}](http://10.21.59.4:5690/PMC/api/PMC/GetTaskOrder?type=ASM2310-900003)`
 > **正式**: `http://10\.21\.59\.4:5690/PMC/api/PMC/GetTaskOrder?type=ASM2310\-900003](http://10.21.59.4:5690/PMC/api/PMC/GetTaskOrder?type=ASM2310-900003)`

@@ -7,7 +7,7 @@ test_url: "http://10\.200\.6\.27:10002/mes/api/plantakeandproduct/by/code/v1\.0\
 
 # 通过条码获取计划号、任务令、产品编码和图号(ONTmes使用)
 
-> **模块**: [[00-总览|MES接口]] > ONT-MES相关接口
+> **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/概览|ONT-MES相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.27:10002/mes/api/plantakeandproduct/by/code/v1\.0\.0`
 

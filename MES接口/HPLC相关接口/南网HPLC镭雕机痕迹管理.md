@@ -7,7 +7,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/lasertacemanageme
 
 # 南网HPLC镭雕机痕迹管理
 
-> **模块**: [[00-总览|MES接口]] > HPLC相关接口
+> **模块**: [[00-总览|MES接口]] > [[HPLC相关接口/概览|HPLC相关接口]]
 > **方式**: POST
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/ss/lasertacemanagement`
 

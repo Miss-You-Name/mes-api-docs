@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdsta
 
 # CCD查询上一站为和当前站位拍照是否有效(已作废，请试用V2接口)
 
-> **模块**: [[00-总览|MES接口]] > MES交互接口
+> **模块**: [[00-总览|MES接口]] > [[MES交互接口/概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckCCDStation~~`
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdstation`~~`

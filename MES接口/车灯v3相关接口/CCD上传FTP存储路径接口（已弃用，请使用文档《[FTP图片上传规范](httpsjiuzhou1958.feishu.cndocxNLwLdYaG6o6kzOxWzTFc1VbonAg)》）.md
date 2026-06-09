@@ -8,7 +8,7 @@ prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/cc
 
 # CCD上传FTP存储路径接口（已弃用，请使用文档《[FTP 图片上传规范](https://jiuzhou1958.feishu.cn/docx/NLwLdYaG6o6kzOxWzTFc1VbonAg)》）
 
-> **模块**: [[00-总览|MES接口]] > 车灯v3相关接口
+> **模块**: [[00-总览|MES接口]] > [[车灯v3相关接口/概览|车灯v3相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.200:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~`
 > **正式**: `http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~`

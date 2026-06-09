@@ -8,7 +8,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl"
 
 # 海思烧录完成后数据处理（ONTMES,统一MES通用）
 
-> **模块**: [[00-总览|MES接口]] > 烧录设备相关接口
+> **模块**: [[00-总览|MES接口]] > [[烧录设备相关接口/概览|烧录设备相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/SMTService\.asmx?op=ML\_SMT\_SL\_HS\_EndSL`
 > **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl`
