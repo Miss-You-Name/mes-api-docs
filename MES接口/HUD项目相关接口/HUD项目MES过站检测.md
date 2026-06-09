@@ -67,28 +67,28 @@ POST
 
 **请求****失败****示例**
 
-|```JSON {   "planName": "ASM2410-017318",   "station": "CZGX020",   "isPallet": true,   "scanCode": "NY-ZP-008-Test" } ``` |
+|`JSON {   "planName": "ASM2410-017318",   "station": "CZGX020",   "isPallet": true,   "scanCode": "NY-ZP-008-Test" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {   "data": null,   "succ": false,   "code": 2,   "msg": "ASM2410-017318计划中不存在条码NY-ZP-008-Test",   "exceptionMsg": "",   "excuteMiniSeconds": 2317,   "env": "Development" } ``` |
+|`JSON {   "data": null,   "succ": false,   "code": 2,   "msg": "ASM2410-017318计划中不存在条码NY-ZP-008-Test",   "exceptionMsg": "",   "excuteMiniSeconds": 2317,   "env": "Development" } ` |
 |---|
 
 请求成功
 
-```JSON
+`JSON
 {
   "planName": "ASM2501-021137",
   "station": "CZGX020",
   "isPallet": **true**,
   "scanCode": "NY-ZP-008-Test"
 }
-```
+`
 
 请求成功返回示例
 
-```JSON
+`JSON
 {
     "data": {
         "isPass": 1,
@@ -101,5 +101,5 @@ POST
     "excuteMiniSeconds": 458,
     "env": "Production"
 }
-```
+`
 

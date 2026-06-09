@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/MatService\.asmx?op=ICT\_MAT\_BandMat"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ict/mat/bandmat"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ict/mat/bandmat"
 ---
 
 # ICT产品物料与产品条码绑定（精准）
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ict/mat/bandmat"
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/MatService\.asmx?op=ICT\_MAT\_BandMat`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ict/mat/bandmat`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ict/mat/bandmat`
 
 ---
 
@@ -23,7 +23,7 @@ ICT产品物料与产品条码绑定(精准)
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/online-mes/``ict/mat/bandmat`
+`http://10.200.6.27:10002/fundation/online-mes/ict/mat/bandmat`
 
 对应的Webservice地址
 
@@ -65,7 +65,7 @@ POST
 
 **请求成功示例**
 
-|```JSON ``` |
+|`JSON ` |
 |---|
 
 **返回示例**

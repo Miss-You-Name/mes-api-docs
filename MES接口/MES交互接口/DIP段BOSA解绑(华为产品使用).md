@@ -2,14 +2,14 @@
 tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/`ml/dip/unbindbosa"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/dip/unbindbosa"
 ---
 
 # DIP段BOSA解绑(华为产品使用)
 
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/`ml/dip/unbindbosa`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/dip/unbindbosa`
 
 ---
 
@@ -21,7 +21,7 @@ DIP段BOSA解绑(华为产品使用)
 
 请求URL
 
-- `http://10.200.6.27:10002/fundation/online-mes/`ml/dip/unbindbosa
+- `http://10.200.6.27:10002/fundation/online-mes/ml/dip/unbindbosa
 
 请求方式
 
@@ -52,16 +52,16 @@ DIP段BOSA解绑(华为产品使用)
 
 **请求示例**
 
-```JSON
+`JSON
 {
     "planName":"",
     "pcbaSn":""
 }
-```
+`
 
 **返回成功示例**
 
-```JSON
+`JSON
 {
   "succ": true,
   "code": 0,
@@ -70,5 +70,5 @@ DIP段BOSA解绑(华为产品使用)
   "excuteMiniSeconds": 650,
   "env": "production"
 }
-```
+`
 

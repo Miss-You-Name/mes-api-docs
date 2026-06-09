@@ -56,18 +56,18 @@ prod_url: http://10.200.6.27:10002/fundation/online-mes/ml/repair/updaterepair
 
 **请求示例**
 
-```JSON
+`JSON
 {
   "planName": "PCB2507-035212",
   "station": "S003",
   "pcbaSn": "109192508020383B03F20.007.005",
   "fault": "D3_Coplanarity_1;Q1_Solderfillet_1;Q1_Solderfillet_2;U3_OCROCV_2;U3_OCROCV_2;U3_OCROCV_3;U3_OCROCV_3;U1_OCROCV_3;U1_OCROCV_3;U4_OCROCV_3;U4_OCROCV_3;Q1_Solderfillet_6"
 }
-```
+`
 
 **返回成功示例**
 
-```JSON
+`JSON
 {
   "succ": true,
   "code": 0,
@@ -76,4 +76,4 @@ prod_url: http://10.200.6.27:10002/fundation/online-mes/ml/repair/updaterepair
   "excuteMiniSeconds": 797,
   "env": "Development"
 }
-```
+`

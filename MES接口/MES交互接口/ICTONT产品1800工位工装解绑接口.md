@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/FixtureService\.asmx?op=ML\_Fixture\_ICTUnBinding"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/fixture/ictunbinding"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/fixture/ictunbinding"
 ---
 
 # ICT:ONT产品1800工位工装解绑接口
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/fixture/ictunbindi
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/FixtureService\.asmx?op=ML\_Fixture\_ICTUnBinding`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/fixture/ictunbinding`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/fixture/ictunbinding`
 
 ---
 
@@ -23,7 +23,7 @@ ICT:ONT产品1800工位工装解绑接口(codeType: 1:托盘;2:21Code;3:单板;f
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/online-mes/``ml/fixture/ictunbinding`
+`http://10.200.6.27:10002/fundation/online-mes/ml/fixture/ictunbinding`
 
 对应的Webservice地址
 
@@ -60,7 +60,7 @@ POST
 
 **请求成功示例**
 
-|```JSON ``` |
+|`JSON ` |
 |---|
 
 **返回示例**

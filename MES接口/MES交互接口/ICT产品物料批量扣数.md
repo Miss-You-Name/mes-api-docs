@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/MatService\.asmx?op=ICT\_MAT\_MatDeductNumber"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ict/mat/matdeductnumber"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ict/mat/matdeductnumber"
 ---
 
 # ICT产品物料批量扣数
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ict/mat/matdeductnumb
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/MatService\.asmx?op=ICT\_MAT\_MatDeductNumber`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ict/mat/matdeductnumber`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ict/mat/matdeductnumber`
 
 ---
 
@@ -23,7 +23,7 @@ ICT产品物料批量扣数(多个codeSns采用 ,号分隔
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/online-mes/``ict/mat/matdeductnumber`
+`http://10.200.6.27:10002/fundation/online-mes/ict/mat/matdeductnumber`
 
 对应的Webservice地址
 
@@ -67,11 +67,11 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "planName": "PCB2505-031673",   "station": "C001",   "line": "XT000017",   "userName": "41487",   "banzu": "amdin",   "codeSns": "LD256H023017",   "workStage": "1" } ``` |
+|`JSON {   "planName": "PCB2505-031673",   "station": "C001",   "line": "XT000017",   "userName": "41487",   "banzu": "amdin",   "codeSns": "LD256H023017",   "workStage": "1" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {     "succ": **true**,     "code": 0,     "msg": "",     "exceptionMsg": "",     "excuteMiniSeconds": 70,     "env": "Development" } ``` |
+|`JSON {     "succ": **true**,     "code": 0,     "msg": "",     "exceptionMsg": "",     "excuteMiniSeconds": 70,     "env": "Development" } ` |
 |---|
 

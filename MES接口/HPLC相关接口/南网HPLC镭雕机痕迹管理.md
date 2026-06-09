@@ -57,11 +57,11 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "planName": "ASM2410-017867-test",   "laserId": "JZ002",   "customerSn":"0x000001" } ``` |
+|`JSON {   "planName": "ASM2410-017867-test",   "laserId": "JZ002",   "customerSn":"0x000001" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 611,   "env": "Development" } ``` |
+|`JSON {   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 611,   "env": "Development" } ` |
 |---|
 

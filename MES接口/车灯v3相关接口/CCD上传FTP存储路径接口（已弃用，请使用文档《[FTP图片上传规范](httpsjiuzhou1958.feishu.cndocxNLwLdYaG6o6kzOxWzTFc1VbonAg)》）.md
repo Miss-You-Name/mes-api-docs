@@ -2,16 +2,16 @@
 tags: [mes-api, 车灯v3相关接口]
 module: 车灯v3相关接口
 method: POST
-test_url: "http://10\.200\.6\.200:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~"
-prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~"
+test_url: "http://10\.200\.6\.200:10002~~~~/fundation`~~~~/api/device/upload/ccd`~~"
+prod_url: "http://10\.200\.6\.27:10002~~~~/fundation`~~~~/api/device/upload/ccd`~~"
 ---
 
 # CCD上传FTP存储路径接口（已弃用，请使用文档《[FTP 图片上传规范](https://jiuzhou1958.feishu.cn/docx/NLwLdYaG6o6kzOxWzTFc1VbonAg)》）
 
 > **模块**: [[00-总览|MES接口]] > [[车灯v3相关接口/车灯v3相关接口-概览|车灯v3相关接口]]
 > **方式**: POST
-> **测试**: `http://10\.200\.6\.200:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~`
-> **正式**: `http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~`
+> **测试**: `http://10\.200\.6\.200:10002~~~~/fundation`~~~~/api/device/upload/ccd`~~`
+> **正式**: `http://10\.200\.6\.27:10002~~~~/fundation`~~~~/api/device/upload/ccd`~~`
 
 ---
 
@@ -23,9 +23,9 @@ prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/cc
 
 ~~请求URL：~~
 
-~~测试：http://10.200.6.200:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~
+~~测试：http://10.200.6.200:10002~~~~/fundation`~~~~/api/device/upload/ccd`~~
 
-~~正式：~~~~http://10.200.6.27:10002~~~~`/fundation`~~~~`/api/device/upload/ccd`~~
+~~正式：~~~~http://10.200.6.27:10002~~~~/fundation`~~~~/api/device/upload/ccd`~~
 
 ~~webservice：~~
 
@@ -72,7 +72,7 @@ prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/cc
 
 **~~请求示例~~**
 
-```JSON
+`JSON
 ~~{~~
 ~~  "planName": "ASM2402-009527",~~
 ~~  "station": "HUD-F3-1",~~
@@ -90,7 +90,7 @@ prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/cc
 ~~      "result":0}~~
 ~~  ]~~
 ~~}~~
-```
+`
 
 ~~path字段解析：~~
 
@@ -101,7 +101,7 @@ prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/cc
 
 **~~返回示例~~**
 
-```JSON
+`JSON
 ~~{~~
 ~~  "succ": true,~~
 ~~  "code": 0,~~
@@ -110,7 +110,7 @@ prod_url: "http://10\.200\.6\.27:10002~~~~`/fundation`~~~~`/api/device/upload/cc
 ~~  "excuteMiniSeconds": 650,~~
 ~~  "env": "production"~~
 ~~}~~
-```
+`
 
 ~~ftp账号密码与项目对应关系~~
 

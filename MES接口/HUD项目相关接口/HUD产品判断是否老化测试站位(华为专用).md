@@ -55,12 +55,12 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "pcbaSn": "LD251H100096" } ``` |
+|`JSON {   "pcbaSn": "LD251H100096" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {   "data": false,   "succ": false,   "code": 2,   "msg": "根据条码:LD251H100096 未找到生产计划信息",   "exceptionMsg": "",   "excuteMiniSeconds": 20510,   "env": "Development" } ``` |
+|`JSON {   "data": false,   "succ": false,   "code": 2,   "msg": "根据条码:LD251H100096 未找到生产计划信息",   "exceptionMsg": "",   "excuteMiniSeconds": 20510,   "env": "Development" } ` |
 |---|
 
 

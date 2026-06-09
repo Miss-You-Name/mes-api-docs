@@ -3,7 +3,7 @@ tags: [mes-api, ONT-MES相关接口]
 module: ONT-MES相关接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckONT3MP9"
-prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/ss/checkont3mp9"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/checkont3mp9"
 ---
 
 # ONT产品维修与降级3MP9工位查询
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/ss/checkont3mp9"
 > **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/ONT-MES相关接口-概览|ONT-MES相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckONT3MP9`
-> **正式**: `http://10.200.6.27:10002/fundation``/online-mes/ml/ss/checkont3mp9`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/ss/checkont3mp9`
 
 ---
 
@@ -23,7 +23,7 @@ ONT产品维修与降级3MP9工位查询
 
 请求URL
 
-- `http://10.200.6.27:10002/fundation``/online-mes/ml/ss/checkont3mp9`
+- `http://10.200.6.27:10002/fundation/online-mes/ml/ss/checkont3mp9`
 
 
 
@@ -59,16 +59,16 @@ http://10.200.6.54:10002/StationService.asmx?op=ML_SS_CheckONT3MP9
 
 **请求示例**
 
-```JSON
+`JSON
 {
   "planName": "ASM2508-029803",
   "codeSn": "2150088427LDR8803080"
 }
-```
+`
 
 **返回成功示例**
 
-```JSON
+`JSON
 {
   "succ": false,
   "code": 2,
@@ -77,7 +77,7 @@ http://10.200.6.54:10002/StationService.asmx?op=ML_SS_CheckONT3MP9
   "excuteMiniSeconds": 2361,
   "env": "Development"
 }
-```
+`
 
 
 

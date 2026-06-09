@@ -3,7 +3,7 @@ tags: [mes-api, 烧录设备相关接口]
 module: 烧录设备相关接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/SMTService\.asmx?op=ML\_SMT\_SL\_HS\_EndSL"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/smt/slhsendsl"
 ---
 
 # 海思烧录完成后数据处理（ONTMES,统一MES通用）
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl"
 > **模块**: [[00-总览|MES接口]] > [[烧录设备相关接口/烧录设备相关接口-概览|烧录设备相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/SMTService\.asmx?op=ML\_SMT\_SL\_HS\_EndSL`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/smt/slhsendsl`
 
 ---
 
@@ -23,7 +23,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl"
 
 请求URL
 
-`webapi``:``http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsendsl`
+`webapi:http://10.200.6.27:10002/fundation/online-mes/ml/smt/slhsendsl`
 
 webservice：http://10.200.6.54:10002/SMTService.asmx?op=ML_SMT_SL_HS_EndSL
 
@@ -103,7 +103,7 @@ json字段说明：
 
 **请求示例**
 
-```JSON
+`JSON
 {
   "plan_name": "PCB2408-017224",
   "mat_sn_parent": "2408261130920200",
@@ -122,11 +122,11 @@ json字段说明：
   "erasing_num": 2,
   "plan_type": 0
 }
-```
+`
 
 **返回成功示例**
 
-```JSON
+`JSON
 {
   "succ": true,
   "code": 0,
@@ -135,7 +135,7 @@ json字段说明：
   "excuteMiniSeconds": 3090,
   "env": "Development"
 }
-```
+`
 
 
 

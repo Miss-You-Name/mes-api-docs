@@ -2,14 +2,14 @@
 tags: [mes-api, HUD项目相关接口]
 module: HUD项目相关接口
 method: POST
-prod_url: "http://10.200.6.27:10002/fundation/``online-mes/ml/ss/hud/getpcodewithserialnumber"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/hud/getpcodewithserialnumber"
 ---
 
 # HUD项目精准物料对应的组件编码
 
 > **模块**: [[00-总览|MES接口]] > [[HUD项目相关接口/HUD项目相关接口-概览|HUD项目相关接口]]
 > **方式**: POST
-> **正式**: `http://10.200.6.27:10002/fundation/``online-mes/ml/ss/hud/getpcodewithserialnumber`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/ss/hud/getpcodewithserialnumber`
 
 ---
 
@@ -21,7 +21,7 @@ HUD项目精准物料对应的组件编码
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/``online-mes/ml/ss/hud/getpcodewithserialnumber`
+`http://10.200.6.27:10002/fundation/online-mes/ml/ss/hud/getpcodewithserialnumber`
 
 **请求方式**
 
@@ -57,12 +57,12 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "planName": "ASM2410-017947",   "scanCode": "2.CZ.07.0000184,DKBA80237197,4957QAM000061" } ``` |
+|`JSON {   "planName": "ASM2410-017947",   "scanCode": "2.CZ.07.0000184,DKBA80237197,4957QAM000061" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {   "data": {     "pcbaSn": "LD24AH164020"   },   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 21320,   "env": "Development" } ``` |
+|`JSON {   "data": {     "pcbaSn": "LD24AH164020"   },   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 21320,   "env": "Development" } ` |
 |---|
 
 

@@ -2,14 +2,14 @@
 tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
-prod_url: "http://10.200.6.27:10002``/fundation/online-mes/ms/ss/getccdrecord"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ms/ss/getccdrecord"
 ---
 
 # CCD查询成功个数
 
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
-> **正式**: `http://10.200.6.27:10002``/fundation/online-mes/ms/ss/getccdrecord`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ms/ss/getccdrecord`
 
 ---
 
@@ -23,7 +23,7 @@ CCD查询测试记录
 
 **请求URL**
 
-`http://10.200.6.27:10002``/fundation/online-mes/ms/ss/getccdrecord`
+`http://10.200.6.27:10002/fundation/online-mes/ms/ss/getccdrecord`
 
 **请求方式**
 
@@ -60,11 +60,11 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "planName": "PCB2503-027635",   "station": "CZ-CCD1",   "codeSn": "R3253H068030",   "result":1 } ``` |
+|`JSON {   "planName": "PCB2503-027635",   "station": "CZ-CCD1",   "codeSn": "R3253H068030",   "result":1 } ` |
 |---|
 
 **返回示例**
 
-|```JSON {   "data": 0,   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 57738,   "env": "Development" } ``` |
+|`JSON {   "data": 0,   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 57738,   "env": "Development" } ` |
 |---|
 

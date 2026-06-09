@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/MatService\.asmx?op=ML\_MAT\_CZAccessoriesTimeCheck"
-prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/mat/czaccessoriestimecheck"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/mat/czaccessoriestimecheck"
 ---
 
 # 车载辅料WMS时间管控接口
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/mat/czaccessoriest
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/MatService\.asmx?op=ML\_MAT\_CZAccessoriesTimeCheck`
-> **正式**: `http://10.200.6.27:10002/fundation``/online-mes/ml/mat/czaccessoriestimecheck`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/mat/czaccessoriestimecheck`
 
 ---
 
@@ -23,7 +23,7 @@ prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/mat/czaccessoriest
 
 请求URL
 
-- `http://10.200.6.27:10002/fundation``/online-mes/ml/mat/czaccessoriestimecheck`
+- `http://10.200.6.27:10002/fundation/online-mes/ml/mat/czaccessoriestimecheck`
 
 封装接口：
 
@@ -57,16 +57,16 @@ http://10.200.6.54:10002/MatService.asmx?op=ML_MAT_CZAccessoriesTimeCheck
 
 **请求示例**
 
-```JSON
+`JSON
 {
   "planName": "ASM2508-029803",
   "station": "CZ-DJ"
 }
-```
+`
 
 **返回成功示例**
 
-```JSON
+`JSON
 {
   "succ": true,
   "code": 0,
@@ -75,7 +75,7 @@ http://10.200.6.54:10002/MatService.asmx?op=ML_MAT_CZAccessoriesTimeCheck
   "excuteMiniSeconds": 2361,
   "env": "Development"
 }
-```
+`
 
 
 

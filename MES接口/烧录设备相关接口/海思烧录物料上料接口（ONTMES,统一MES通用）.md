@@ -3,7 +3,7 @@ tags: [mes-api, 烧录设备相关接口]
 module: 烧录设备相关接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/SMTService\.asmx?op=ML\_SMT\_SL\_HS\_ScanMat"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsscanmat"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/smt/slhsscanmat"
 ---
 
 # 海思烧录物料上料接口（ONTMES,统一MES通用）
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsscanmat"
 > **模块**: [[00-总览|MES接口]] > [[烧录设备相关接口/烧录设备相关接口-概览|烧录设备相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/SMTService\.asmx?op=ML\_SMT\_SL\_HS\_ScanMat`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsscanmat`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/smt/slhsscanmat`
 
 ---
 
@@ -23,7 +23,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsscanmat"
 
 请求URL
 
-`WebApi:``http://10.200.6.27:10002/fundation/online-mes/``ml/smt/slhsscanmat`
+`WebApi:http://10.200.6.27:10002/fundation/online-mes/ml/smt/slhsscanmat`
 
 webservice：http://10.200.6.54:10002/SMTService.asmx?op=ML_SMT_SL_HS_ScanMat
 
@@ -64,17 +64,17 @@ webservice：http://10.200.6.54:10002/SMTService.asmx?op=ML_SMT_SL_HS_ScanMat
 
 **请求示例**
 
-```JSON
+`JSON
 {
   "planName": "PCB2510-039642",
   "line": "test",
   "matSn": "2508184069500355"
 }
-```
+`
 
 **返回成功示例**
 
-```JSON
+`JSON
 {
         "data": {
                 "matCode": "3.KG.0041.2041",
@@ -104,5 +104,5 @@ webservice：http://10.200.6.54:10002/SMTService.asmx?op=ML_SMT_SL_HS_ScanMat
   "excuteMiniSeconds": 155011,
   "env": "Production"
 }
-```
+`
 

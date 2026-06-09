@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckCCDStation~~"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdstation`~~"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/~~~~`ml/ss/checkccdstation`~~"
 ---
 
 # CCD查询上一站为和当前站位拍照是否有效(已作废，请试用V2接口)
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdsta
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckCCDStation~~`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdstation`~~`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/~~~~`ml/ss/checkccdstation`~~`
 
 ---
 
@@ -25,7 +25,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdsta
 
 **~~请求URL~~**
 
-~~`http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdstation`~~
+~~`http://10.200.6.27:10002/fundation/online-mes/~~~~`ml/ss/checkccdstation`~~
 
 ~~对应的~~~~Webservice地址~~
 
@@ -67,7 +67,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/`~~~~`ml/ss/checkccdsta
 
 **~~请求成功示例~~**
 
-|```JSON ~~{~~ ~~  "productcode": "test",~~ ~~  "planname": "ASM2501-021137",~~ ~~  "backstation": "CZGX020",~~ ~~  "nowstation":"CZGX021"~~ ~~}~~ ``` |
+|`JSON ~~{~~ ~~  "productcode": "test",~~ ~~  "planname": "ASM2501-021137",~~ ~~  "backstation": "CZGX020",~~ ~~  "nowstation":"CZGX021"~~ ~~}~~ ` |
 |---|
 
 **~~返回示例~~**

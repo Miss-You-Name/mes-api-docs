@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckALLCCDStation"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstation"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/checkallccdstation"
 ---
 
 # CCD查询传入的站位的CCD是否都有拍照数据
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstat
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_CheckALLCCDStation`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstation`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/ss/checkallccdstation`
 
 ---
 
@@ -25,7 +25,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstat
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/online-mes/``ml/ss/checkallccdstation`
+`http://10.200.6.27:10002/fundation/online-mes/ml/ss/checkallccdstation`
 
 对应的Webservice地址
 
@@ -65,7 +65,7 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "productcode": "test",   "planname": "ASM2501-021137",   "stations": "CZGX021,CZGX020" } ``` |
+|`JSON {   "productcode": "test",   "planname": "ASM2501-021137",   "stations": "CZGX021,CZGX020" } ` |
 |---|
 
 **返回示例**

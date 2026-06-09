@@ -3,7 +3,7 @@ tags: [mes-api, 柔性v2线体相关接口]
 module: 柔性v2线体相关接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/FixtureService\.asmx?op=ML\_Fixture\_CheckLastFixtureBind"
-prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/fixture/checklastfixturebind"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/fixture/checklastfixturebind"
 ---
 
 # 校验CH-DY站位电源适配器是否绑定
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/fixture/checklastf
 > **模块**: [[00-总览|MES接口]] > [[柔性v2线体相关接口/柔性v2线体相关接口-概览|柔性v2线体相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/FixtureService\.asmx?op=ML\_Fixture\_CheckLastFixtureBind`
-> **正式**: `http://10.200.6.27:10002/fundation``/online-mes/ml/fixture/checklastfixturebind`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/fixture/checklastfixturebind`
 
 ---
 
@@ -23,7 +23,7 @@ prod_url: "http://10.200.6.27:10002/fundation``/online-mes/ml/fixture/checklastf
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation``/online-mes/ml/fixture/checklastfixturebind`
+`http://10.200.6.27:10002/fundation/online-mes/ml/fixture/checklastfixturebind`
 
 对应的websevice接口
 
@@ -57,14 +57,14 @@ POST
 
 **请求示例**
 
-|```JSON {   "palletNo": "GZ-QC-20255-JZJT-006VB",   "planName": "PCB2505-031673",   "lastStation": "CH-DY" } ``` |
+|`JSON {   "palletNo": "GZ-QC-20255-JZJT-006VB",   "planName": "PCB2505-031673",   "lastStation": "CH-DY" } ` |
 |---|
 
 **请求示例**
 
-```JSON
+`JSON
 
-```
+`
 
 
 
@@ -107,14 +107,14 @@ POST
 
 **请求示例**
 
-|```JSON ``` |
+|`JSON ` |
 |---|
 
 **请求示例**
 
-```JSON
+`JSON
 
-```
+`
 
 
 

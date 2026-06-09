@@ -76,7 +76,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/uploadccd`~~"
 
 **~~请求成功示例~~**
 
-|```JSON ~~{~~ ~~    "planName": "ASM2501-021137",~~ ~~    "station": "CZGX020",~~ ~~    "line": "CZ_ZZ_006",~~ ~~    "codeSn": "LD251H046294",~~ ~~    "ccdJson": "[{\"path\":\"/Images/HUD/CCDWG/ASM2501-021137/LD251H046294_OK_20250220155428110.jpg\",\"position\":\"jiechakou\",\"result\":0}]"~~ ~~}~~ ``` |
+|`JSON ~~{~~ ~~    "planName": "ASM2501-021137",~~ ~~    "station": "CZGX020",~~ ~~    "line": "CZ_ZZ_006",~~ ~~    "codeSn": "LD251H046294",~~ ~~    "ccdJson": "[{\"path\":\"/Images/HUD/CCDWG/ASM2501-021137/LD251H046294_OK_20250220155428110.jpg\",\"position\":\"jiechakou\",\"result\":0}]"~~ ~~}~~ ` |
 |---|
 
 ~~path字段解析：~~
@@ -90,6 +90,6 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/uploadccd`~~"
 
 **~~返回示例~~**
 
-|```JSON ~~{"succ": true,"code": 0,"msg": "","exceptionMsg": "","excuteMiniSeconds": 2902,"env": "Development"~~ ~~}~~ ``` |
+|`JSON ~~{"succ": true,"code": 0,"msg": "","exceptionMsg": "","excuteMiniSeconds": 2902,"env": "Development"~~ ~~}~~ ` |
 |---|
 

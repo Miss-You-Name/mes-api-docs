@@ -67,7 +67,7 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "productcode": "test",   "planname": "ASM2501-021137",   "backstation": "CZGX020",   "nowstation":"CZGX021" } ``` |
+|`JSON {   "productcode": "test",   "planname": "ASM2501-021137",   "backstation": "CZGX020",   "nowstation":"CZGX021" } ` |
 |---|
 
 **返回示例**

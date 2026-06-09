@@ -2,14 +2,14 @@
 tags: [mes-api, 车灯v3相关接口]
 module: 车灯v3相关接口
 method: POST
-prod_url: "http://10.200.6.27:10002/fundation/api/online-mes``/online-mes/ml/ss/hud/beforetestwithdevicecode"
+prod_url: "http://10.200.6.27:10002/fundation/api/online-mes/online-mes/ml/ss/hud/beforetestwithdevicecode"
 ---
 
 # HUD带设备编号的站前检测
 
 > **模块**: [[00-总览|MES接口]] > [[车灯v3相关接口/车灯v3相关接口-概览|车灯v3相关接口]]
 > **方式**: POST
-> **正式**: `http://10.200.6.27:10002/fundation/api/online-mes``/online-mes/ml/ss/hud/beforetestwithdevicecode`
+> **正式**: `http://10.200.6.27:10002/fundation/api/online-mes/online-mes/ml/ss/hud/beforetestwithdevicecode`
 
 ---
 
@@ -21,7 +21,7 @@ prod_url: "http://10.200.6.27:10002/fundation/api/online-mes``/online-mes/ml/ss/
 
 请求URL
 
-- `http://10.200.6.27:10002/fundation/api/online-mes``/online-mes/ml/ss/hud/beforetestwithdevicecode`
+- `http://10.200.6.27:10002/fundation/api/online-mes/online-mes/ml/ss/hud/beforetestwithdevicecode`
 
 **Header参数**
 
@@ -60,17 +60,17 @@ POST
 
 **请求失败示例**
 
-|```JSON {   "planName": "ASM2502-022442",   "station": "3MP2",   "isPallet": false,   "scanCode": "LD248H110270",   "isZJCode": true,   "deviceCode": "11111111" } ``` |
+|`JSON {   "planName": "ASM2502-022442",   "station": "3MP2",   "isPallet": false,   "scanCode": "LD248H110270",   "isZJCode": true,   "deviceCode": "11111111" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {     "code": 1,     "message": "无效接口！",     "status": 2010 } ``` |
+|`JSON {     "code": 1,     "message": "无效接口！",     "status": 2010 } ` |
 |---|
 
 请求成功
 
-```JSON
+`JSON
 {
   "data": {
     "isPass": 1,
@@ -84,11 +84,11 @@ POST
   "excuteMiniSeconds": 39431,
   "env": "Production"
 }
-```
+`
 
 请求失败返回示例
 
-```JSON
+`JSON
 {
   "data": {
     "isPass": -1,
@@ -102,5 +102,5 @@ POST
   "excuteMiniSeconds": 942,
   "env": "Production"
 }
-```
+`
 

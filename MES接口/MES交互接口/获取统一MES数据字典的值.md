@@ -3,7 +3,7 @@ tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/CommonService\.asmx?op=ML\_COM\_GetSysGlossary"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossary"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/mes/common/getglossary"
 ---
 
 # 获取统一MES数据字典的值
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossar
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/CommonService\.asmx?op=ML\_COM\_GetSysGlossary`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossary`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/mes/common/getglossary`
 
 ---
 
@@ -25,7 +25,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossar
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/online-mes/``mes/common/getglossary`
+`http://10.200.6.27:10002/fundation/online-mes/mes/common/getglossary`
 
 对应的Webservice地址
 
@@ -65,12 +65,12 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "parentcode": "BarCode" } ``` |
+|`JSON {   "parentcode": "BarCode" } ` |
 |---|
 
 **返回示例**
 
-|```JSON {   "data": [     {       "dataCode": "BarCode26Code",       "dataName": "26SSN"     }   ],   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 17467,   "env": "Development" } ``` |
+|`JSON {   "data": [     {       "dataCode": "BarCode26Code",       "dataName": "26SSN"     }   ],   "succ": true,   "code": 0,   "msg": "",   "exceptionMsg": "",   "excuteMiniSeconds": 17467,   "env": "Development" } ` |
 |---|
 
 

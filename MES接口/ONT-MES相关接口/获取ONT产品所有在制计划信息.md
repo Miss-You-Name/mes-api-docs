@@ -2,14 +2,14 @@
 tags: [mes-api, ONT-MES相关接口]
 module: ONT-MES相关接口
 method: POST
-prod_url: "http://10.200.6.27:10002``/ontmes/api/inprocess/plan/info/get/v1.0.0"
+prod_url: "http://10.200.6.27:10002/ontmes/api/inprocess/plan/info/get/v1.0.0"
 ---
 
 # 获取ONT产品所有在制计划信息
 
 > **模块**: [[00-总览|MES接口]] > [[ONT-MES相关接口/ONT-MES相关接口-概览|ONT-MES相关接口]]
 > **方式**: POST
-> **正式**: `http://10.200.6.27:10002``/ontmes/api/inprocess/plan/info/get/v1.0.0`
+> **正式**: `http://10.200.6.27:10002/ontmes/api/inprocess/plan/info/get/v1.0.0`
 
 ---
 
@@ -21,7 +21,7 @@ prod_url: "http://10.200.6.27:10002``/ontmes/api/inprocess/plan/info/get/v1.0.0"
 
 **请求URL**
 
-`http://10.200.6.27:10002``/ontmes/api/inprocess/plan/info/get/v1.0.0`
+`http://10.200.6.27:10002/ontmes/api/inprocess/plan/info/get/v1.0.0`
 
 **请求方式**
 
@@ -58,12 +58,12 @@ POST
 
 **请求成功示例**
 
-|```JSON {    } ``` |
+|`JSON {    } ` |
 |---|
 
 **返回示例**
 
-|```JSON {     "code": 0,     "message": "success",     "status": 200,     "data": [         {             "taskNo": "ASM2404010966",             "planNo": "123456",             "qty": 1.0,             "remark": "4.19研发用机器-张恒岭",             "productName": "GPON终端GJZ2.028.2993"         },         {             "taskNo": "ASM2011999001",             "planNo": "ASM2011-999001",             "qty": 20.0,             "remark": "11月22日    根据李康科研预投    预投单板20块",             "productName": "无线局域网设备GJZ2.028.4176"         },         {             "taskNo": "PCB2311007036",             "planNo": "ASM2111-007036",             "qty": 50.0,             "remark": "11月9日    根据李康科研预投    预投单板50块",             "productName": "无线局域网设备GJZ2.028.4174"         },         {             "taskNo": "ASM2307000001",             "planNo": "ASM2307-000001",             "qty": 10.0,             "remark": "研发虚拟计划50050157",             "productName": "防火墙GJZ2.028.4582"         }    ] } ``` |
+|`JSON {     "code": 0,     "message": "success",     "status": 200,     "data": [         {             "taskNo": "ASM2404010966",             "planNo": "123456",             "qty": 1.0,             "remark": "4.19研发用机器-张恒岭",             "productName": "GPON终端GJZ2.028.2993"         },         {             "taskNo": "ASM2011999001",             "planNo": "ASM2011-999001",             "qty": 20.0,             "remark": "11月22日    根据李康科研预投    预投单板20块",             "productName": "无线局域网设备GJZ2.028.4176"         },         {             "taskNo": "PCB2311007036",             "planNo": "ASM2111-007036",             "qty": 50.0,             "remark": "11月9日    根据李康科研预投    预投单板50块",             "productName": "无线局域网设备GJZ2.028.4174"         },         {             "taskNo": "ASM2307000001",             "planNo": "ASM2307-000001",             "qty": 10.0,             "remark": "研发虚拟计划50050157",             "productName": "防火墙GJZ2.028.4582"         }    ] } ` |
 |---|
 
 

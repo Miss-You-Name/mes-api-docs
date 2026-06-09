@@ -3,7 +3,7 @@ tags: [mes-api, 柔性v2线体相关接口]
 module: 柔性v2线体相关接口
 method: POST
 test_url: "http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_UpdateCCDSn"
-prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/updateccdsn"
+prod_url: "http://10.200.6.27:10002/fundation/online-mes/ml/ss/updateccdsn"
 ---
 
 # CCD反写入上一站位图片信息
@@ -11,7 +11,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/updateccdsn"
 > **模块**: [[00-总览|MES接口]] > [[柔性v2线体相关接口/柔性v2线体相关接口-概览|柔性v2线体相关接口]]
 > **方式**: POST
 > **测试**: `http://10\.200\.6\.54:10002/StationService\.asmx?op=ML\_SS\_UpdateCCDSn`
-> **正式**: `http://10.200.6.27:10002/fundation/online-mes/``ml/ss/updateccdsn`
+> **正式**: `http://10.200.6.27:10002/fundation/online-mes/ml/ss/updateccdsn`
 
 ---
 
@@ -25,7 +25,7 @@ prod_url: "http://10.200.6.27:10002/fundation/online-mes/``ml/ss/updateccdsn"
 
 **请求URL**
 
-`http://10.200.6.27:10002/fundation/online-mes/``ml/ss/updateccdsn`
+`http://10.200.6.27:10002/fundation/online-mes/ml/ss/updateccdsn`
 
 对应的Webservice地址
 
@@ -66,7 +66,7 @@ POST
 
 **请求成功示例**
 
-|```JSON {   "pallet": "test",   "productcode": "test",   "planName": "ASM2501-021137",   "station":"CZGX021" } ``` |
+|`JSON {   "pallet": "test",   "productcode": "test",   "planName": "ASM2501-021137",   "station":"CZGX021" } ` |
 |---|
 
 **返回示例**

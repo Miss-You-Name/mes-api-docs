@@ -2,16 +2,16 @@
 tags: [mes-api, MES交互接口]
 module: MES交互接口
 method: POST
-test_url: "http://10\.200\.6\.200:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1"
-prod_url: "http://10\.200\.6\.27:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1"
+test_url: "http://10\.200\.6\.200:10002/fundation/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1"
+prod_url: "http://10\.200\.6\.27:10002/fundation/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1"
 ---
 
 # ICT:ONT产品1800工位工装解绑接口V1
 
 > **模块**: [[00-总览|MES接口]] > [[MES交互接口/MES交互接口-概览|MES交互接口]]
 > **方式**: POST
-> **测试**: `http://10\.200\.6\.200:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
-> **正式**: `http://10\.200\.6\.27:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
+> **测试**: `http://10\.200\.6\.200:10002/fundation/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
+> **正式**: `http://10\.200\.6\.27:10002/fundation/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
 
 ---
 
@@ -23,9 +23,9 @@ ICT:ONT产品1800工位工装解绑接口(codeType: 1:托盘;2:21Code;3:单板;f
 
 **请求URL**
 
-测试：http://10.200.6.200:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
+测试：http://10.200.6.200:10002/fundation/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
 
-正式：http://10.200.6.27:10002`/fundation``/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
+正式：http://10.200.6.27:10002/fundation/api/online-mes/v2/transfer/ml/fixture/ictunbindingv1`
 
 
 
@@ -64,7 +64,7 @@ POST
 
 **请求成功示例**
 
-|```JSON { "codeType":1, "code":"GZ-QG-20258-DMS-143VB", "finalState":false, "result":false } ``` |
+|`JSON { "codeType":1, "code":"GZ-QG-20258-DMS-143VB", "finalState":false, "result":false } ` |
 |---|
 
 **返回示例**

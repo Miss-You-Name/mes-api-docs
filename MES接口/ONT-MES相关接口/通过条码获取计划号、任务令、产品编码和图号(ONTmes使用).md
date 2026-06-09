@@ -33,15 +33,15 @@ test_url: "http://10\.200\.6\.27:10002/mes/api/plantakeandproduct/by/code/v1\.0\
 
 请求成功示例
 
-```Plain Text
+`Plain Text
 {
   "barcode": "LD246H059160"
 }
-```
+`
 
 返回示例成功
 
-```JSON
+`JSON
 {
   "code": 0,
   "message": "success",
@@ -55,7 +55,7 @@ test_url: "http://10\.200\.6\.27:10002/mes/api/plantakeandproduct/by/code/v1\.0\
     }
   ]
 }
-```
+`
 
 
 
