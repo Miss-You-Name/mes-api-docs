@@ -26,4 +26,6 @@ echo ============================================
 echo   Done!
 echo   https://Miss-You-Name.github.io/mes-api-docs/
 echo ============================================
-pause
+echo.
+echo Press any key to close...
+pause >nul
